@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Job Application Tracker",
+    "version": "1.0",
+    "description": "Save job application URLs to GitHub repository",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://api.github.com/*"
+    ]
+  }
